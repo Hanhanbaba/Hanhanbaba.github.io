@@ -1,0 +1,64 @@
+html,body,h1,h2,p,ul,li{
+    margin: 0;
+    padding: 0;
+}
+.middle{
+    width: 70%;
+    min-width: 500px;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid black;
+}
+/*header*/
+header{
+    line-height: 100px;
+    background: black;
+    color: white;
+}
+header a{
+    color: white;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+/*banner*/
+.banner{
+    background: greenyellow;
+    height: 50px;
+}
+.banner ul{
+    float: right;
+    margin-top: 20px;
+}
+/*nav*/
+.nav h2{
+    background: rgb(213, 222, 231);
+    display: inline-block;
+    border: 1px solid black;
+}
+/*content*/
+.content div{
+    display: flex;
+}
+.content div p{
+    border: 1px solid black;
+    margin: 1px;
+    flex: 1;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+/*footer*/
+footer{
+    background: gray;
+    color: white;
+    text-align: center;
+    height: 80px;
+    line-height: 50px;
+}
+
+
